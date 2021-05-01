@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31105.61
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorCliente_SignalR.Server", "BlazorCliente_SignalR\Server\BlazorCliente_SignalR.Server.csproj", "{8B8D352C-7032-4537-86CC-D8A3CBA69DA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorCliente_SignalR.Client", "BlazorCliente_SignalR\Client\BlazorCliente_SignalR.Client.csproj", "{CAA28099-43BF-47FE-B9B8-EB22AEA16768}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorCliente_SignalR.Shared", "BlazorCliente_SignalR\Shared\BlazorCliente_SignalR.Shared.csproj", "{265CB3A0-9DED-41A8-865E-406F1FCE3566}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8B8D352C-7032-4537-86CC-D8A3CBA69DA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B8D352C-7032-4537-86CC-D8A3CBA69DA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B8D352C-7032-4537-86CC-D8A3CBA69DA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B8D352C-7032-4537-86CC-D8A3CBA69DA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAA28099-43BF-47FE-B9B8-EB22AEA16768}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAA28099-43BF-47FE-B9B8-EB22AEA16768}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAA28099-43BF-47FE-B9B8-EB22AEA16768}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAA28099-43BF-47FE-B9B8-EB22AEA16768}.Release|Any CPU.Build.0 = Release|Any CPU
+		{265CB3A0-9DED-41A8-865E-406F1FCE3566}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{265CB3A0-9DED-41A8-865E-406F1FCE3566}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{265CB3A0-9DED-41A8-865E-406F1FCE3566}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{265CB3A0-9DED-41A8-865E-406F1FCE3566}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5C96D983-6B85-4E1F-B281-EFDE6C08FC7B}
+	EndGlobalSection
+EndGlobal
